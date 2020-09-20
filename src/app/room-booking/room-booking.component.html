@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="col-lg-8">
+    <div class="row rooms-title">
+      <div class="col">
+        <mat-icon>groups</mat-icon>
+        <span>
+          Choose number of <span class="people">people</span>
+        </span>
+      </div>
+    </div>
+    <div class="border">
+      <div class="row">
+        <div class="col-lg-3">
+          <mat-icon class="icons"> hotel </mat-icon>
+          <span class="title icons">ROOMS</span>
+        </div>
+        <div class="col-lg-3 offset-6">
+          <div class="row">
+            <div class="col-lg-1">
+              <button class="button" (click)="deleteCounts('roomMinus')" [disabled]="roomSubButton">
+                <mat-icon class="minus"> remove_circle </mat-icon>
+              </button>
+            </div>
+            <div class="col-lg-1 counts">{{roomCounts}}
+            </div>
+            <div class="col-lg-1">
+              <button class="button" (click)="addCounts('roomPlus')" [disabled]="roomAddButton">
+                <mat-icon class="plus"> add_circle </mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3">
+          <mat-icon class="icons"> person </mat-icon>
+          <span class="title icons">ADULTS</span>
+        </div>
+        <div class="col-lg-3 offset-6">
+          <div class="row">
+            <div class="col-lg-1">
+              <button class="button" (click)="deleteCounts('adultMinus')" [disabled]="adultSubButton">
+                <mat-icon class="minus"> remove_circle </mat-icon>
+              </button>
+            </div>
+            <div class="col-lg-1 counts">{{adultCounts}}
+            </div>
+            <div class="col-lg-1">
+              <button class="button" (click)="addCounts('adultPlus')" [disabled]="adultAddButton">
+                <mat-icon class="plus"> add_circle </mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-lg-3">
+          <mat-icon class="icons"> accessibility_new </mat-icon>
+          <span class="title icons">CHILDREN</span>
+        </div>
+        <div class="col-lg-3 offset-6">
+          <div class="row">
+            <div class="col-lg-1">
+              <button class="button" (click)="deleteCounts('childMinus')" [disabled]="childSubButton">
+                <mat-icon class="minus"> remove_circle </mat-icon>
+              </button>
+            </div>
+            <div class="col-lg-1 counts">{{chlidCounts}}
+            </div>
+            <div class="col-lg-1">
+              <button class="button" (click)="addCounts('childPlus')" [disabled]="childAddButton">
+                <mat-icon class="plus"> add_circle </mat-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

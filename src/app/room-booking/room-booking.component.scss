@@ -1,0 +1,56 @@
+.rooms-title {
+  color:#1717a9;
+  font-size: x-large;
+  font-weight: 300;
+  margin: 0%;
+}
+p {
+  margin: 0% 0% 1% 1%;
+}
+.people {
+  color:#1717a9;
+  font-weight: 600;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 3%;
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.border {
+  border: 2px solid #7b8084 !important;
+  padding: 15px 0px 15px 15px;
+}
+.counts {
+  // display: flex;
+  // justify-content: center;
+  margin: 3% 0% 0% 11%;
+}
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  color: #1717a9;
+  font-size: larger;
+  font-weight: 300;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.minus{
+  color: #1717a9;
+  font-size: xx-large;
+  // cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.plus {
+  color: #d31888;
+  font-size: xx-large;
+  // cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
